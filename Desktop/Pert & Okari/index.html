@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout">
+        <h1 id="title">kublwear product</h1>
+        <p id="description">To create a better and functioning world through providing safer energy producing machinery</p>
+        <form id="survey-form">
+            <div>
+                <label id="name-label">Full Names</label>
+                <input id="name" type="text" placeholder="John Doe" required>
+                <label id="email-label">Enter email</label>
+                <input id="email" type="email" placeholder="user@gmail.com" required>
+                <label id="number-label">Your age</label>
+                <input id="number" type="number" min="16" max="80" value="age" placeholder="16">
+            </div>
+            <div>
+                <label>How often do you use our products?</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle2" value="once">
+                <label for="vehicle2"> rarely</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle3" value="Oftenly">
+                <label for="vehicle3"> once in a while</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle4" value="Occasionaly">
+                <label for="vehicle1">Occasionaly</label>
+            </div>
+            <div>
+                <label >would you recommend this products?</label><br>
+                <input  type="radio"  name="fav_language" value="HTML">
+                <label>Yes</label><br>
+                <input  type="radio"  name="fav_language" value="HTML">
+                <label>Maybe</label><br>
+                <input  type="radio"  name="fav_language" value="HTML">
+                <label>Never</label><br>
+            </div>
+            <div>
+                <label>How would you rate the value for money?</label>
+                <input id="checkbox" type="range" name="points" min="0" max="10">
+                <label>How likely are you to recommend this product to others?</label><br>
+                <select id="dropdown">
+                    <option value="Never">Never</option>
+                    <option value="Maybe">Maybe</option>
+                    <option value="Very">Very likely</option>
+                </select><br>
+                <label>What important features are we missing?</label>
+                <input id="checkbox" class="text-bar" type="text">
+                <label>How could we improve our product to better meet your needs?</label>
+                <input id="checkbox" class="text-bar" type="text">
+            </div>
+            <div>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="5" cols="40">
+                    Web development technologies.
+                </textarea>
+            </div>
+            <div>
+                <button>
+                    <input id="submit" type="submit">
+                </button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
