@@ -12,6 +12,7 @@ header{
     height: 70px;
     position: fixed;
     width: 100%;
+    z-index: 100;
   }
 
 header img{
@@ -92,4 +93,14 @@ textarea{
 input[type="submit"]{
     width: 80px;
 }
+
+
+}
+type {
+    display: block;
+    flex: 1fr;
+}
+
+  #service {
+    width: 200px;
   }
