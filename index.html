@@ -24,76 +24,64 @@
     <section id="pg1">
         <div class="sect">
             <h1>Our product</h1>
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LvsXSm5A-08"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <div class="desc">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquam est. Nulla luctus ligula quis pretium mollis. Duis placerat congue quam, ac tincidunt ligula iaculis quis. Ut egestas arcu sed nunc faucibus maximus.
-                <p></p>
-    Suspendisse eu ligula et ex lacinia malesuada. In eget nibh est. Morbi orci lectus, blandit eu imperdiet volutpat, sagittis quis leo. Etiam suscipit bibendum ex eget rhoncus. Sed tempor, quam vel sagittis interdum, nunc ligula accumsan ligula, non viverra massa risus et dui. Suspendisse ornare gravida arcu, in consequat justo mollis in. Nullam convallis dolor in aliquet tempus. Aliquam accumsan neque turpis, facilisis pretium leo vestibulum vitae. Donec libero nisl, elementum eu consequat vel, vestibulum id lacus. Integer porta est vel mauris consectetur, a vestibulum metus ultricies.
-                </p>
+            <div class="flex-container">
+                <div class="flex-item-left">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LvsXSm5A-08"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="flex-item-right">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquam est. Nulla luctus
+                        ligula quis pretium mollis. Duis placerat congue quam, ac tincidunt ligula iaculis quis. Ut
+                        egestas
+                        arcu sed nunc faucibus maximus.
+                        <p></p>
+                        Suspendisse eu ligula et ex lacinia malesuada. In eget nibh est. Morbi orci lectus, blandit eu
+                        imperdiet volutpat, sagittis quis leo. Etiam suscipit bibendum ex eget rhoncus. Sed tempor, quam
+                        vel
+                        sagittis interdum, nunc ligula accumsan ligula, non viverra massa risus et dui. Suspendisse
+                        ornare
+                        gravida arcu, in consequat justo mollis in. Nullam convallis dolor in aliquet tempus. Aliquam
+                        accumsan neque turpis, facilisis pretium leo vestibulum vitae. Donec libero nisl, elementum eu
+                        consequat vel, vestibulum id lacus. Integer porta est vel mauris consectetur, a vestibulum metus
+                        ultricies.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
     <section id="pg2">
         <div class="sect">
-            <img src="pictures/head.png" alt="image">
-            <p>iphone Repair & Service</p>
-        </div>
-        <div class="type">
-            <div class="service">
-                <img src="pictures/screw.png" alt="screwdriver" width="60px">
-                <h4>Schedule a visit</h4>
-                <p>Make an appointment at an Apple Authorized Service Provider or Apple Store</p>
+            <div class="center">
+                <img src="pictures/head.png" alt="image">
+                <h1>iPhone Repair & Service</h1>
             </div>
-            <div class="service">
-                <img src="pictures/box.png" alt="box">
-                <h4>Send in for repair</h4>
-                <p>Arrange to mail your product directly to Apple</p>
-            </div>
-        </div>
-
-        <h3>Featured services</h3>
-        <div>
-            <div>
-                <img src="pictures/bat.png" alt="bat">
-                <h4>Battery services</h4>
-                <p>We can replace your iPhone battery for a fee. Our warranty doesn’t cover batteries that wear down from normal use.
-
-                    Your product is eligible for a battery replacement at no additional cost if you have AppleCare+ and your product's battery holds less than 80 percent of its original capacity.</p>
-            </div>
-            <div>
-                <img src="pictures/screen.png" alt="screen">
-                <h4>Screen repair</h4>
-                <p>We replace cracked screens for a fee. Accidental damage isn't covered by the Apple warranty.
-
-                    Screen repairs are eligible for coverage for accidental damage from handling with your AppleCare+.</p>
+            <div class="flex-container">
+                <div class="flex-item-left">
+                    <img src="pictures/screw.png" alt="screwdriver" width="60px">
+                    <h5>Schedule a visit</h5>
+                    <p>Make an appointment at an Apple Authorized Service Provider or Apple Store</p>
+                </div>
+                <div class="flex-item-right">
+                    <img src="pictures/box.png" alt="box">
+                    <h5>Send in for repair</h5>
+                    <p>Arrange to mail your product directly to Apple</p>
+                </div>
             </div>
         </div>
-        <div>
-            <h4>Get an estimate</h4>
-            <p>make your selection below.</p>
-            <form action="https://support.apple.com/iphone/repair">
-                <input type="text" placeholder="Service type">
-                <input type="text" placeholder="Product or Accessory">
-                <input type="text" placeholder="Model">
-                <input type="submit">
-            </form>
-        </div>
-
     </section>
     <section id="pg3">
         <div class="sect">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <h1>Contact us</h4>
-                <input id="username" name="username" type="text" placeholder="Insert your name">
-            <input id="email" name="email" type="email" placeholder="Insert email">
-            <textarea name="message" id="messsage" cols="30" rows="10"></textarea>
-            <input id="submit" type="submit">
-        </form>
-    </div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" class="center" style="width:450px">
+                <h1>Contact us</h4>
+                    <input id="username" name="username" type="text" placeholder="Insert your name">
+                    <input id="email" name="email" type="email" placeholder="Insert email">
+                    <textarea name="message" id="messsage" cols="30" rows="10"></textarea>
+                    <input id="submit" type="submit">
+            </form>
+        </div>
     </section>
 </body>
 

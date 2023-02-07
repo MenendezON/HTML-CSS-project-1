@@ -1,12 +1,14 @@
-html, body {
+* {
+    box-sizing: border-box;
+  }
+  html, body {
     height: 100%;
     overflow: hidden;
+    background-image: url('pictures/background.png');
+    background-size: cover;
   }
 
   @media screen and (min-width: 600px) {
-  #pg2{
-    background-color: green;
-  }
 
 header{
     height: 70px;
@@ -62,7 +64,7 @@ color: darkblue;
 
 iframe{
     float: left;
-    width: 40%;
+    width: 100%;
 }
 
 .desc{
@@ -83,10 +85,6 @@ input{
     margin: 5px 0 5px 0;
 }
 
-#pg3 sect{
-    margin:auto
-}
-
 textarea{
     width: 400px;
 }
@@ -94,13 +92,39 @@ input[type="submit"]{
     width: 80px;
 }
 
-
-}
-type {
-    display: block;
-    flex: 1fr;
-}
-
-  #service {
-    width: 200px;
+.center {
+    margin: auto;
+    width: 350px;
+    padding: 10px;
   }
+
+  .center img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid gray;
+    border-radius:70px;
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+
+}
