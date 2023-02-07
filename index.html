@@ -6,11 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anker Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    Hello world
+
+    <header id="header">
+        <img width="30px" src="./picture/logo.png" alt="camera" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#pg1" class="nav-link">Home</a></li>
+                <li><a href="#pg2" class="nav-link">Description</a></li>
+                <li><a href="#pg3" class="nav-link">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="pg1">
+
+        <div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LvsXSm5A-08"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+    </section>
+    <section id="pg2"></section>
+    <section id="pg3">
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h4>The Power House</h4>
+            <input id="email" name="email" type="email" placeholder="Insert email">
+            <input id="submit" type="submit">
+        </form>
+    </section>
 </body>
 
 </html>
