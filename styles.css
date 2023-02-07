@@ -1,0 +1,84 @@
+:root {
+    color: white;
+    font-size: larger;
+    background-color: rgb(21,32,43);
+}
+body {
+    display: grid;
+    grid-template-areas: 
+    header, header,header
+    main, main, sidebar
+    footer, footer,sidebar;
+}
+
+.top-bar {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img, iframe {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+main {
+    margin: 0px 40px;
+}
+
+h3 {
+    color: black;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 6px;
+    height: 40px;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 23px;
+    padding: 0px 14px;
+    background-color: darkgray;
+}
+
+#submit {
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 28px;
+}
+
+#submit:active {
+    background-color: rgb(35, 236, 236);
+}
+
+    
+footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}    
