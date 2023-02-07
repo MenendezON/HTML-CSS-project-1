@@ -3,6 +3,7 @@ html, body {
     overflow: hidden;
   }
 
+  @media screen and (min-width: 600px) {
   #pg2{
     background-color: green;
   }
@@ -81,7 +82,7 @@ input{
     margin: 5px 0 5px 0;
 }
 
-form{
+#pg3 sect{
     margin:auto
 }
 
@@ -91,3 +92,4 @@ textarea{
 input[type="submit"]{
     width: 80px;
 }
+  }
