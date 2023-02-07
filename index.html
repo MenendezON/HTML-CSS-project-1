@@ -1,74 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anker Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="top-bar">
-        <div>
-            <header id="header">
-                <img width="30px" src="picture/icon.png" alt="camera" id="header-img">   
-            </header>
-        </div>
-        <div>
-            <nav id="nav-bar">
-                <ul>
-                    <li><a href="">Description</a></li>
-                    <li><a href="">Features</a></li>
-                </ul>  
-            </nav>
-        </div>    
-    </div>      
-    
 
-    <main>
-        <div class="data">
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <h4>The Power House</h4>
-                <input id="email" type="email" placeholder="Insert email">
-                <input id="submit" type="submit" placeholder="Get powered">
-            </form>
-        </div>
-
-        <div>
-            <h3>WHAT IS IT?</h3>
-            <p class="text">
-                The Anker Powerhouse 200 is a 218 watt/hour portable power station with diverse charging ports: 12 volt DC (car cigarette lighter), 2 USB 3, 1 USB-C power delivery, and an AC 110 volt outlet. It weighs  6 lbs. and comes with a handle for carrying. It’s sleek, modern design looks good in any setting. 
-            </p>
-                <iframe width="320px" height="240px" title="description" src="https://www.youtube.com/watch?v=YZMUw89Ln20" >
-                </iframe>
-        </div>
-        
-        <div>
-            <p>
-                <h3>DESIGNS AND FEATURES</h3>
-                Chances are, you already own an Anker charger or know someone who does. Anker chargers are dependable, easy to use, and come in all sizes and power ratings for all budgets. The Powerhouse 200 is their newest large capacity power source for short-term outages, camping trips, or other get-togethers where power is not available.
-                At 6 lbs, the Powerhouse 200 is easy to carry and move around where needed. It has an LCD screen that indicates battery life so you always know how much juice you have left. 
-                There are 5 power-out ports on one end of the Powerhouse 200 and one power-in port at the other end. I like this setup. Other power stations I use have the power-in port on the same side as the power-out ports making it a bit awkward for charging with many cords connected. Connecting and disconnecting was easy. The weight of the unit helps hold it in place allowing for a one-handed connection. Its thick, silicone handle makes it easy to carry room to room as needed.
-            </p>
-            <p>To learn more visit Ankers website page </p>
-            <h3>Specifications</h3>
+    <header id="header">
+        <img src="pictures\logo.jpg" alt="camera" id="header-img">
+        <nav id="nav-bar">
             <ul>
-                <li>Capacity: 57600mAh/218.8Wh</li>
-                <li>Input: AC/Power delivery</li>
-                <li>USB Output: 5V</li>
-                <li>Power Delivery output: 5V=3A, 9V=3A, 15V=2A, 20V=1.5A</li>
-                <li>DC output: 12V</li>
-                <li>AC output: 110V</li>
-                <li>AC waveform: Pure sine wave</li>
-                <li>Total Output: 130W max</li>
+                <li><a href="#pg1" class="nav-link">Home</a></li>
+                <li><a href="#pg2" class="nav-link">Services</a></li>
+                <li><a href="#pg3" class="nav-link">Contact</a></li>
             </ul>
-            <img src="picture/camera.jpeg" width="500px">
+        </nav>
+    </header>
+    <section id="pg1">
+        <div class="sect">
+            <h1>Our product</h1>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LvsXSm5A-08"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div class="desc">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquam est. Nulla luctus ligula quis pretium mollis. Duis placerat congue quam, ac tincidunt ligula iaculis quis. Ut egestas arcu sed nunc faucibus maximus.
+                <p></p>
+    Suspendisse eu ligula et ex lacinia malesuada. In eget nibh est. Morbi orci lectus, blandit eu imperdiet volutpat, sagittis quis leo. Etiam suscipit bibendum ex eget rhoncus. Sed tempor, quam vel sagittis interdum, nunc ligula accumsan ligula, non viverra massa risus et dui. Suspendisse ornare gravida arcu, in consequat justo mollis in. Nullam convallis dolor in aliquet tempus. Aliquam accumsan neque turpis, facilisis pretium leo vestibulum vitae. Donec libero nisl, elementum eu consequat vel, vestibulum id lacus. Integer porta est vel mauris consectetur, a vestibulum metus ultricies.
+                </p>
+            </div>
         </div>
-    </main>
-    <footer>
-        <p >
-            Okari designs
-        </p> 
-    </footer>
+    </section>
+    <section id="pg2">
+        <div>
+
+        </div>
+    </section>
+    <section id="pg3">
+        <div class="sect">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1>Contact us</h4>
+                <input id="username" name="username" type="text" placeholder="Insert your name">
+            <input id="email" name="email" type="email" placeholder="Insert email">
+            <textarea name="message" id="messsage" cols="30" rows="10"></textarea>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    </section>
 </body>
+
 </html>

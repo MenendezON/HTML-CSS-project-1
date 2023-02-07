@@ -1,84 +1,95 @@
-:root {
-    color: white;
-    font-size: larger;
-    background-color: rgb(21,32,43);
-}
-body {
-    display: grid;
-    grid-template-areas: 
-    header, header,header
-    main, main, sidebar
-    footer, footer,sidebar;
-}
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
 
-.top-bar {
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-img, iframe {
-    display: flex;
-    margin: auto;
-    margin-top: 20px;
-}
-main {
-    margin: 0px 40px;
-}
-
-h3 {
-    color: black;
-    text-decoration: underline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h4 {
-    color: black;
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 400;
-}
-
-.data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#email {
-    display: flex;
-    margin-top: -30px;
-    margin-bottom: 6px;
-    height: 40px;
-    width: 600px;
-    border: 1px solid gray;
-    border-radius: 23px;
-    padding: 0px 14px;
-    background-color: darkgray;
-}
-
-#submit {
-    color: white;
+  @media screen and (min-width: 600px) {
+  #pg2{
     background-color: green;
-    height: 50px;
-    width: 200px;
-    border: none;
-    border-radius: 28px;
-}
+  }
 
-#submit:active {
-    background-color: rgb(35, 236, 236);
-}
+header{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+  }
 
-    
-footer {
-    height: 40px;
+header img{
     display: flex;
-    justify-content: center;
-}    
+    background: red;
+    width: 70px;
+    float:left;
+    top:10px;
+}
+.nav-bar{
+    position:fixed;
+    background-color: red;
+    float: right;
+    width: 100%;
+}
+
+ul li{
+    display:inline;
+}
+
+ul li a, li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkblue;
+    padding: 10px;
+}
+
+ul li a:hover, li a:hover{
+    
+    color: #fff;
+    background-color: darkblue;
+}
+
+section{
+    height: 100%;
+}
+
+section div.sect{
+    padding: 130px 100px 50px 100px;
+}
+
+h1{
+    text-align: center;
+text-transform: uppercase;
+color: darkblue;
+}
+
+iframe{
+    float: left;
+    width: 40%;
+}
+
+.desc{
+    width: 40%;
+    padding: 0 50px;
+    float: left;
+    vertical-align: top;
+    color: gray;
+    line-height: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    display: block;
+    height: 45px;
+    font-weight:500;
+    width: 400px;
+    margin: 5px 0 5px 0;
+}
+
+#pg3 sect{
+    margin:auto
+}
+
+textarea{
+    width: 400px;
+}
+input[type="submit"]{
+    width: 80px;
+}
+  }
